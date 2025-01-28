@@ -1,22 +1,10 @@
 {
     "name": "$HODai",
-    "plugins": [
-        {
-        "name": "helius",
-        "enabled": true
-        },
-        {
-        "name": "birdeye",
-        "enabled": true
-        }
-    ],
+    "plugins": [],
     "clients": ["twitter", "telegram"],
     "modelProvider": "openai",
     "settings": {
-        "secrets": {
-        "HELIUS_API_KEY": "{{HELIUS_API_KEY}}",
-        "BIRDEYE_API_KEY": "{{BIRDEYE_API_KEY}}"
-        },
+        "secrets": {},
         "voice": {
         "model": "en_US-male-medium"
         }
