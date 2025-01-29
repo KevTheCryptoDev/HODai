@@ -1,6 +1,6 @@
 {
     "name": "$HODai",
-    "plugins": ["helius", "birdeye"],
+    "plugins": ["coingecko"],
     "clients": ["twitter", "telegram"],
     "modelProvider": "openai",
     "settings": {
